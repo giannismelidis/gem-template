@@ -1,4 +1,4 @@
-require "GEM_NAME/version"
+require_relative 'GEM_NAME/version'
 
 module GEM_NAMESPACE
 end
