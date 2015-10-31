@@ -8,8 +8,8 @@ Gem::Specification.new do |gem|
   gem.version       = GEM_NAMESPACE::VERSION
   gem.authors       = ['giannismelidis']
   gem.email         = ['FIXME: Change email']
-  gem.description   = %q{FIXME: Change description}
-  gem.summary       = %q{FIXME: Change summary}
+  gem.summary       = 'FIXME: Update summary.'
+  gem.description   = gem.summary
   gem.homepage      = 'http://github.com/giannismelidis/GEM_NAME'
 
   gem.files         = `git ls-files`.split($/)
