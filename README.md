@@ -11,4 +11,4 @@ Assuming you've cloned this repository all you need to do is run the following:
 * `NAME`: the name of the gem, used for directories. An example is
   `spell_checker`.
 * `NAMESPACE`: the namespace of the application, for example `SpellChecker`.
-* `DIRECTORY`: the directory to create the gem in.
+* `DIRECTORY`: the directory to create the gem in (without the gem name).
