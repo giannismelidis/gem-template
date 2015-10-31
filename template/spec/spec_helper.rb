@@ -1,7 +1,10 @@
 require 'GEM_NAME'
 include GEM_NAMESPACE
 
-require_relative 'support/simplecov' if ENV['COVERAGE']
+if ENV['COVERAGE']
+  require 'simplecov'
+  SimpleCov.start
+end
 
 RSpec.configure do |config|
   config.color = true
