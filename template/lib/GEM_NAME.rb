@@ -1,5 +1,5 @@
 require_relative 'GEM_NAME/version'
 
 module GEM_NAMESPACE
-end
+end # GEM_NAMESPACE
 
